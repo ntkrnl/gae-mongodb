@@ -1,6 +1,7 @@
 GAE python mongodb完全兼容接口
 
-只需要在你的model.py里面加入这几句话
+只需要把datastore_mongodb_stub.py pymongo bson复制到
+在你的model.py里面加入这几句话
 gae的app就可以无缝使用mongodb数据库了
 其中mongodb://xxxxxx是mongodb uri
 port写数据库端口，也可以忽略此参数
