@@ -9,7 +9,7 @@ port写数据库端口，也可以忽略此参数
 
 
     import os
-	import datastore_mongodb_stub
+    import datastore_mongodb_stub
     from google.appengine.api import apiproxy_stub_map
     
     mongodb = datastore_mongodb_stub.DatastoreMongoDBStub(os.environ['APPLICATION_ID'], False, 'datastore_v3', None, None, 'mongodb://xxxxxx', port)
